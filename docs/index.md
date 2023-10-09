@@ -4,9 +4,10 @@ Het Klantinteractie Servicesysteem (KISS) is een applicatie waarmee Klantcontact
 ## Documentatie 
 
 - [Installatie](INSTALLATION.md)
-- [Configuratie](CONFIGURATIE.md)
+- [Configuratie](CONFIGURATION.md)
+- [Onderhoud](MAINTENANCE.md)
 - [Handleiding beheer](MANUAL.md)
-- [Architectuur](Architectuur.md) 
+- [Architectuur](ARCHITECTURE.md) 
 - [Security](SECURITY.md)
 - [Documentatie-archief](https://kiss-oldDocs.readthedocs.io/)
 
