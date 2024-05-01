@@ -1,6 +1,6 @@
 # Uitbreiding van de POST van een Contactmoment
 
-Bij de integratie met de e-Suite (in gebruikt bij Dimpact-gemeenten), in januari-februari 2024, was het uitgangspunt dat KISS zoveel mogelijk onveranderd zou blijven. Dit bleek voor de registratie van een Contactverzoek in de e-Suite helaas niet haalbaar. Daarom is de  POST-data van een Contactmoment vanuit KISS uitgebreid.
+Bij de integratie met de e-Suite (in gebruikt bij Dimpact-gemeenten), in januari-februari 2024, was het uitgangspunt dat KISS zoveel mogelijk onveranderd zou blijven. Dit bleek voor de registratie van een Contactverzoek in de e-Suite helaas niet haalbaar. Daarom is de  POST-data van een Contactmoment vanuit KISS uitgebreid. Bij de realisatie van [Contactverzoek koppelen aan Medewerker binnen een specifieke groep/afdeling](https://dimpact.atlassian.net/browse/PC-146) is het objectmodel van de interneTaak uitgebreid en dit is ook verwerkt in de POS-data van een Contactmoment. 
 
 ### Aanleiding
 Binnen KISS bestaat een Contactverzoek uit een Interne Taak met daaraan gekoppeld een Contactmoment. Kiss registreert daarom éérst het Contactmoment in het Contactmomentenregister. Vervolgens neemt KISS de URL van dat contactmoment uit de response van dat register, en voegt dat toe  aan de call waarmee KISS de interne taak registreert. 
